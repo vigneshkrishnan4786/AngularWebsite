@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Last Account Transaction</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>
+          <mat-icon matListIcon>info</mat-icon>
+          <h4 matLine>{{ lastTransaction }}</h4>
+          <p matLine>
+            <span class="text-caption">Transaction Title</span>
+          </p>
+        </mat-list-item>
+        <!-- rest of the transaction props would go here as <mat-list-item> -->
+      </mat-list>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary">Edit Transaction</button>
+    </mat-card-actions>
+  </mat-card>
